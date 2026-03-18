@@ -18,7 +18,7 @@ function App() {
   const threads = "@cayevi.baku";
   const whatsapp = "+994 12 555 77 88";
 
-  const [tab, setTab] = useState("home");
+  const [tab, setTab] = useState("menu");
   const [lang, setLang] = useState("az");
 
   return (

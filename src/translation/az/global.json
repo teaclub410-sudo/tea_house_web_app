@@ -1,0 +1,72 @@
+{
+   "nav": { "home": "Ana Səhifə", "about": "Haqqımızda", "menu": "Menyu", "contact": "Əlaqə" },
+    "home": {
+      "badge": "🍵 Xoş Gəlmisiniz",
+      "title": "Çay Evi",
+      "subtitle": "Çay",
+      "tagline": "Hər qurtumda bir hekayə. Hər anında bir sakitlik.",
+      "cta": "Menyuya Bax",
+      "ctaSub": "Rezervasiya Et",
+      "featTitle": "Niyə Bizi Seçirsiniz?",
+      "features": [
+        { "icon": "🌿", "title": "Təbii Çaylar", "desc": "Dünyanın dörd bir yanından seçilmiş premium çay yarpaqları." },
+        { "icon": "🏮", "title": "Rahat Atmosfer", "desc": "Gündəlik həyatın səs-küyündən uzaqda, huzurlu bir məkan." },
+        { "icon": "👨‍🍳", "title": "Usta Əllər", "desc": "Çay ustalarımız hər fincanı sevgi ilə hazırlayır." },
+        { "icon": "🎋", "title": "Ənənəvi Reseptlər", "desc": "Nəsildən-nəslə keçən gizli reseptlər." }
+      ],
+      "hours": "İş Saatları",
+      "hoursData": [
+        { "day": "Bazar ertəsi – Cümə", "time": "09:00 – 22:00" },
+        { "day": "Şənbə", "time": "10:00 – 23:00" },
+        { "day": "Bazar", "time": "11:00 – 21:00" }
+      ]
+    },
+    "about": {
+      "title": "Haqqımızda",
+      "sub": "Çayın sehrli dünyasına xoş gəldiniz",
+      "story": "2010-cu ildə Bakının qədim küçələrindən birində açılan çay evimiz, ziyarətçilərimizə həqiqi istirahət və zövq təqdim etmək üçün yaradılmışdır. Hər fincan çay, bizim sizə olan sevgimizin ifadəsidir.",
+      "story2": "Biz sadəcə çay satmırıq — biz hisslər, xatirələr və anlar yaradırıq. Məkanımız hər ziyarətçiyə ev hissi verir.",
+      "values": ["Keyfiyyət", "Ənənə", "İstilik", "Zövq"],
+      "valTitle": "Dəyərlərimiz",
+      "team": "Komandamız",
+      "founded": "Yaranma ili",
+      "guests": "Məmnun qonaq",
+      "varieties": "Çay növü"
+    },
+    "menu": {
+      "title": "Menyumuz",
+      "sub": "Seçilmiş çaylar və ləzzətlər",
+      "categories": ["Hamısı", "Qara Çay", "Yaşıl Çay", "Bitki Çayı", "Xüsusi", "Şirniyyat"],
+      "items": [
+        { "id":1, "cat":"Qara Çay", "name":"Azərbaycan Qara Çayı", "price":"4.50", "desc":"Lənkərandan xüsusi toplanmış güclü qara çay.", "emoji":"🫖" },
+        { "id":2, "cat":"Qara Çay","name":"Earl Grey Premium", "price":"5.00", "desc":"Bergamot aroması ilə zənginləşdirilmiş klassik çay.", "emoji":"🍵" },
+        { "id":3, "cat":"Qara Çay", "name":"Darjeeling First Flush", "price":"6.50", "desc":"Hindistanın dağlarından ilk hasatın incisi.", "emoji":"🫖" },
+        { "id":4, "cat":"Yaşıl Çay", "name":"Japon Matcha", "price":"7.00", "desc":"Seremoniya keyfiyyətli Japon matcha çayı.",  "emoji":"🍵" },
+        { "id":5, "cat":"Yaşıl Çay", "name":"Gunpowder Yaşıl",      "price":"5.50", " desc":"Yuvarlaq yarpaqlardan hazırlanmış güclü yaşıl çay.", "emoji":"🌿" },
+        { "id":6, "cat":"Yaşıl Çay", "name":"Jasmine Dragon Pearl",  "price":"6.00", " desc":"Yasəmən çiçəyi ilə ətirləndirilmiş mirvari çay.", "emoji":"🌸" },
+        { "id":7, "cat":"Bitki Çayı", "name":"Nane-Limon", "price":"4.00", " desc":"Təzə nanə və limondan hazırlanmış canlandırıcı içki.", "emoji":"🍋" },
+        { "id":8, "cat":"Bitki Çayı", "name":"Zəncəfil-Bal", "price":"4.50", " desc":"İsidici zəncəfil çayı, üzərinə bal.", "emoji":"🍯" },
+        { "id":9, "cat":"Bitki Çayı", "name":"Bənövşə Çayı", "price":"5.00", " desc":"Azərbaycanın dağlarından toplanan bənövşə.", "emoji":"💜" },
+        { "id":10, "cat":"Xüsusi", "name":"Sütlü Çay (Masala)", "price":"6.00", " desc":"Hindistan baharatları ilə hazırlanmış isidici çay.",   "emoji":"🥛" },
+        { "id":11, "cat":"Xüsusi", "name":"Çay Latte", "price":"6.50", " desc":"Kremli süd köpüyü ilə yumuşaq çay latte.", "emoji":"☕" },
+        { "id":12, "cat":"Xüsusi", "name":"Buz Çayı", "price":"5.00", " desc":"Soyuq buz üzərində canlandırıcı çay kokteyli.", "emoji":"🧊" },
+        { "id":13, "cat":"Şirniyyat", "name":"Baklavа", "price":"3.50", " desc":"Əl işi gəlincik baklavası, fıstıqlı.", "emoji":"🍯" },
+        { "id":14, "cat":"Şirniyyat", "name":"Şəkərbura", "price":"3.00", " desc":"Ənənəvi Azərbaycan şirniyyatı.", "emoji":"🌙" },
+        { "id":15, "cat":"Şirniyyat", "name":"Qoğal", "price":"2.50", " desc":"Sarıköklü ənənəvi çörək.", "emoji":"🥐" }
+      ],
+      "currency": "₼"
+    },
+    "contact": {
+      "title": "Əlaqə",
+      "sub": "Bizimlə əlaqə saxlayın",
+      "address": "Ünvan",
+      "addressVal": "Nizami küçəsi 42, Bakı, Azərbaycan",
+      "phone": "Telefon",
+      "phoneVal": "+994 12 555 77 88",
+      "email": "E-poçt",
+      "emailVal": "info@çayevi.az",
+      "social": "Sosial Şəbəkələr",
+      "follow": "Bizi izləyin"
+    },
+    "footer": "© 2024 Çay Evi."
+}

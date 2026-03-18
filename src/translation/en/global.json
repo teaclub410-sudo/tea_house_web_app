@@ -1,0 +1,72 @@
+{
+  "nav": { "home": "Home", "about": "About", "menu": "Menu", "contact": "Contact" },
+  "home": {
+    "badge": "🍵 Welcome",
+    "title": "Tea House",
+    "subtitle": "Tea",
+    "tagline": "A story in every sip. Serenity in every moment.",
+    "cta": "View Menu",
+    "ctaSub": "Reserve a Table",
+    "featTitle": "Why Choose Us?",
+    "features": [
+      { "icon": "🌿", "title": "Natural Teas", "desc": "Premium tea leaves handpicked from around the world." },
+      { "icon": "🏮", "title": "Cosy Atmosphere", "desc": "A peaceful retreat away from the city noise." },
+      { "icon": "👨‍🍳", "title": "Tea Masters", "desc": "Every cup crafted with love by our tea artisans." },
+      { "icon": "🎋", "title": "Traditional Recipes", "desc": "Secret recipes passed down through generations." }
+    ],
+    "hours": "Opening Hours",
+    "hoursData": [
+      { "day": "Monday – Friday", "time": "09:00 – 22:00" },
+      { "day": "Saturday", "time": "10:00 – 23:00" },
+      { "day": "Sunday", "time": "11:00 – 21:00" }
+    ]
+  },
+  "about": {
+    "title": "About Us",
+    "sub": "Welcome to the magical world of tea",
+    "story": "Our tea house opened in 2010 on one of Baku's historic streets. We were created to offer our guests genuine rest and pleasure in every visit.",
+    "story2": "We don't just sell tea — we create feelings, memories and moments. Our space makes every visitor feel right at home.",
+    "values": ["Quality", "Tradition", "Warmth", "Taste"],
+    "valTitle": "Our Values",
+    "team": "Our Team",
+    "founded": "Founded",
+    "guests": "Happy Guests",
+    "varieties": "Tea Varieties"
+  },
+  "menu": {
+    "title": "Our Menu",
+    "sub": "Curated teas and delights",
+    "categories": ["All", "Black Tea", "Green Tea", "Herbal", "Specials", "Sweets"],
+    "items": [
+      { "id":1, "cat":"Black Tea",  "name":"Azerbaijani Black Tea",  "price":"4.50", "desc":"Bold black tea, handpicked from Lankaran.",               "emoji":"🫖" },
+      { "id":2, "cat":"Black Tea",  "name":"Earl Grey Premium",      "price":"5.00", "desc":"Classic tea enriched with bergamot aroma.",              "emoji":"🍵" },
+      { "id":3, "cat":"Black Tea",  "name":"Darjeeling First Flush", "price":"6.50", "desc":"The pearl of first harvest from India's mountains.",      "emoji":"🫖" },
+      { "id":4, "cat":"Green Tea",  "name":"Japanese Matcha",        "price":"7.00", "desc":"Ceremonial grade Japanese matcha.",                       "emoji":"🍵" },
+      { "id":5, "cat":"Green Tea",  "name":"Gunpowder Green",        "price":"5.50", "desc":"Bold green tea from tightly rolled leaves.",              "emoji":"🌿" },
+      { "id":6, "cat":"Green Tea",  "name":"Jasmine Dragon Pearl",   "price":"6.00", "desc":"Pearl tea scented with jasmine blossoms.",                "emoji":"🌸" },
+      { "id":7, "cat":"Herbal",     "name":"Mint & Lemon",           "price":"4.00", "desc":"Refreshing drink made from fresh mint and lemon.",        "emoji":"🍋" },
+      { "id":8, "cat":"Herbal",     "name":"Ginger & Honey",         "price":"4.50", "desc":"Warming ginger tea drizzled with honey.",                "emoji":"🍯" },
+      { "id":9, "cat":"Herbal",     "name":"Violet Tea",             "price":"5.00", "desc":"Violet flowers gathered from Azerbaijan's mountains.",    "emoji":"💜" },
+      { "id":10,"cat":"Specials",   "name":"Masala Chai",            "price":"6.00", "desc":"Warming tea with Indian spices.",                        "emoji":"🥛" },
+      { "id":11,"cat":"Specials",   "name":"Tea Latte",              "price":"6.50", "desc":"Smooth tea latte with a creamy milk foam.",               "emoji":"☕" },
+      { "id":12,"cat":"Specials",   "name":"Iced Tea",               "price":"5.00", "desc":"Refreshing tea cocktail served over ice.",                "emoji":"🧊" },
+      { "id":13,"cat":"Sweets",     "name":"Baklava",                "price":"3.50", "desc":"Handmade Azerbaijani baklava with pistachios.",           "emoji":"🍯" },
+      { "id":14,"cat":"Sweets",     "name":"Shekerbura",             "price":"3.00", "desc":"Traditional Azerbaijani sweet pastry.",                  "emoji":"🌙" },
+      { "id":15,"cat":"Sweets",     "name":"Gogal",                  "price":"2.50", "desc":"Traditional turmeric-spiced bread.",                    "emoji":"🥐" }
+    ],
+    "currency": "₼"
+  },
+  "contact": {
+    "title": "Contact",
+    "sub": "Get in touch with us",
+    "address": "Address",
+    "addressVal": "42 Nizami Street, Baku, Azerbaijan",
+    "phone": "Phone",
+    "phoneVal": "+994 12 555 77 88",
+    "email": "Email",
+    "emailVal": "info@teahouse.az",
+    "social": "Social Media",
+    "follow": "Follow Us"
+  },
+  "footer": "© 2024 Tea House."
+}

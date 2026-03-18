@@ -7,13 +7,13 @@ function Menu() {
   const { t, i18n } = useTranslation();
 
   const categories = t('menu.categories', { returnObjects: true });
-  const items      = t('menu.items',      { returnObjects: true });
+  const items = t('menu.items', { returnObjects: true });
 
-  const [menuCat, setMenuCat] = useState(categories[0]); // "All" / "Hamısı" etc.
+  const [menuCat, setMenuCat] = useState(0); // "All" / "Hamısı" etc.
 
-  const filteredMenu = menuCat === categories[0]
+  const filteredMenu = menuCat === 0
     ? items
-    : items.filter(item => item.cat === menuCat);
+    : items.filter(item => item.cat === categories[menuCat]);
 
   return (
     <>
@@ -26,7 +26,7 @@ function Menu() {
                 <div className="menu-cats">
                 {categories.map((c,i) => (
                     <button key={i} className={`cat-btn ${menuCat===c?"active":""}`}
-                    onClick={() => setMenuCat(c)}>{c}
+                    onClick={() => setMenuCat(i)}>{c}
                     </button>
                 ))}
                 </div>

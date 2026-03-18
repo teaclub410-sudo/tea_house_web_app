@@ -12,16 +12,23 @@ function Header(props){
                 <nav>
                     <div className="nav-logo">☕ <span>Çay</span> Evi</div>
                     <div className="nav-links">
-                        {props.tabs.map(k => (
-                        <button key={k} className={`nav-btn ${props.tab===k?"active":""}`} onClick={() => props.setTab(k)}>
-                            {t(`nav.${k}`)}
+                        {props.tabs.map(tab => (
+                        <button key={tab} className={`nav-btn ${props.tab===tab ? "active":""}`} onClick={() => props.setTab(tab)}>
+                            {t(`nav.${tab}`)}
                         </button>
                         ))}
                     </div>
                     <div className="lang-sw">
-                        {props.languages.map(l => (
-                        <button key={l} className={`lang-btn ${props.lang===l?"active":""}`} onClick={() => props.setLang(l)}>
-                            {l}
+                        {props.languages.map(lang => (
+                        <button 
+                            key={lang}
+                            className={`lang-btn ${props.lang===lang?"active":""}`} 
+                            onClick={() => {
+                                props.setLang(lang)
+                                i18n.changeLanguage(lang);
+                            }
+                        }>
+                            {lang}
                         </button>
                         ))}
                     </div>
